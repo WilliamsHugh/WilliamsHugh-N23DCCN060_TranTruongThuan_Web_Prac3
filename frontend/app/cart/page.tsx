@@ -47,7 +47,7 @@ export default function CartPage() {
         {cart.map(item => (
           <div
             key={item.productId}
-            className="flex justify-between items-center p-4 border rounded-lg bg-white shadow-sm"
+            className="flex justify-between items-center p-4 border rounded-lg bg-white shadow-sm text-black"
           >
             <div>
               <p className="font-medium">{item.name}</p>
